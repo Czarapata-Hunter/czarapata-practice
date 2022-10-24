@@ -98,15 +98,59 @@ if (population >= portugalPopulation) {
 
 // Lesson 20
 // type conversion
-const inputYear = "1991";
-console.log(Number(inputYear));
-console.log(Number(inputYear) + 18);
+// const inputYear = "1991";
+// console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
 
-console.log(Number("Jonas"));
-console.log(typeof NaN);
+// console.log(Number("Jonas"));
+// console.log(typeof NaN);
 
-console.log(String(23));
+// console.log(String(23));
 
-//type coercion
-console.log("I am " + 23 + " years old"); // converts to string
-console.log("23" - "-10" - 3); // converts to number
+// //type coercion
+// console.log("I am " + 23 + " years old"); // converts to string
+// console.log("23" - "-10" - 3); // converts to number
+// let n = '1' + 1; // '11'
+// n = n - 1;
+// console.log(n);
+
+// Lesson 21
+// 5 falsy values = 0, '', undefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Hunter'));
+// console.log(Boolean({}));
+
+// const money = 1;
+// if(money) {
+//   console.log("Don't spend it all");
+// } else {
+//   console.log("You should get a job!");
+// }
+
+// let height = 0;
+// if(height) {
+//   console.log("Yay!");
+// } else {
+//   console.log("Height is Undefined");
+// }
+
+// Lesson 22
+
+const age = 18;
+if (age === 18) console.log("You just became an adult");
+
+const favorite  = Number(prompt("What is your favorite number?"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+  console.log("Cool! 23 is an awesome number!");
+} else if(favorite === 7) {
+  console.log("7 is also cool");
+} else {
+  console.log("Number is not cool enough to be 23 or 7");
+}
+
+if(favorite !== 23) console.log("Why not the 23?");
+
