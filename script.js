@@ -181,3 +181,51 @@ console.log(century);
 //     }`
 //   );
 // }
+
+// Coding Challenge 3
+// Calculate the Average for Both Teams
+
+// const dolphinsScore = (96 + 108 + 89) / 3;
+// const koalasScore = (88 + 91 + 110) / 3;
+// const requiredScore = 100;
+// console.log(dolphinsScore);
+// console.log(koalasScore);
+
+// if (dolphinsScore > koalasScore && dolphinsScore >= requiredScore) {
+//   console.log("The Dolphins win!");
+// } else {
+//   console.log("The Dolphins had a Higher Score, but did not meet the minimum");
+// }
+
+// Coding Challenge 3 Bonus 1
+// const dolphinScore = (97 + 112 + 101) / 3;
+// const koalaScore = (109 + 95 + 123) / 3;
+// const requiredScore = 100;
+
+// if (dolphinScore > koalaScore && dolphinScore > requiredScore) {
+//   console.log("The Dolphins Win!");
+// } else if (koalaScore > dolphinScore && koalaScore > requiredScore) {
+//   console.log("The Koalas Win!");
+// } else if (dolphinScore > koalaScore && dolphinScore < requiredScore) {
+//   console.log("The Dolphins had more pounts, but not enough!");
+// } else if (koalaScore > dolphinScore && koalaScore < requiredScore) {
+//   console.log("The Koalas had more points but not enough!");
+// }
+
+// Coding Challenge 3 Bonus 2
+
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 106) / 3;
+// const scoreRequired = 100;
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins > scoreRequired) {
+//   console.log("The Dolphins win the Trophy!");
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas > scoreRequired) {
+//   console.log("The Koala's win the Tropy!");
+// } else if (scoreDolphins > scoreKoalas && scoreDolphins < scoreRequired) {
+//   console.log("The Dolphins beat the Koalas, but did not have enough points!");
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas < scoreRequired) {
+//   console.log("The Koalas beat the Dolphins, but did not have enough points");
+// } else if (scoreDolphins === scoreKoalas) {
+//   console.log("Both teams tie, so neither team wins!");
+// }
